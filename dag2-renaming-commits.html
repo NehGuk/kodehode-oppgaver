@@ -10,17 +10,19 @@
     <header>
         <h1>Renaming previous commits</h1>
     </header>
-    <main>
-        <p>First things first: always make sure to write clear and consistent commit messages. However, things may go wrong at times. Silly typos, meaningless messages, inconsistent verb tenses. There's a lot we may want to improve. Today I played around with the infamous <code>git rebase -i HEAD~N</code> strategy. What the heck is that? This allows us to edit commit messages that have already been pushed to our repository. This is how it works:</p>
-        <pre><code>
-            git rebase -i HEAD~3
-        </code></pre>
-        <p>This will allow you to edit the last 3 commits. Use any number you wish here, as long as it's equal or smaller than the total number of commits of your project. The system will bring up a file with all the commit messages: for the ones you wanna change, just replace <code>pick</code> by <code>reword</code>. Then save it and close the document. A new file will open up, where you're finally able to edit the commit message. Again, save and close. Repeat the process for every commit message you wish to edit. Once you're done, proceed with the final trick:</p> 
-        <pre><code>
-            git push --force origin
-        </code></pre>
-        <p>That's basically it. More details on the official docs <a href="https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message#rewriting-the-most-recent-commit-message" target="_blank">here</a>. An important note: it's best to avoid doing this in projects where several developers are working on the same repo. A poorly planned rebase will almost certainly be a major headache for the whole team –– because everything will go out of sync, and everyone in the team will hate you.</p>
-        <a href="index.html" id="back-button">Back</a>
+    <main class="content">
+        <article>
+            <p>First things first: always make sure to write clear and consistent commit messages. However, things may go wrong at times. Silly typos, meaningless messages, inconsistent verb tenses. There's a lot we may want to improve. Today I played around with the infamous <code>git rebase -i HEAD~N</code> strategy. What the heck is that? This allows us to edit commit messages that have already been pushed to our repository. This is how it works:</p>
+            <pre><code>
+                git rebase -i HEAD~3
+            </code></pre>
+            <p>This will allow you to edit the last 3 commits. Use any number you wish here, as long as it's equal or smaller than the total number of commits of your project. The system will bring up a file with all the commit messages: for the ones you wanna change, just replace <code>pick</code> by <code>reword</code>. Then save it and close the document. A new file will open up, where you're finally able to edit the commit message. Again, save and close. Repeat the process for every commit message you wish to edit. Once you're done, proceed with the final trick:</p> 
+            <pre><code>
+                git push --force origin
+            </code></pre>
+            <p>That's basically it. More details on the official docs <a href="https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message#rewriting-the-most-recent-commit-message" target="_blank">here</a>. An important note: it's best to avoid doing this in projects where several developers are working on the same repo. A poorly planned rebase will almost certainly be a major headache for the whole team –– because everything will go out of sync, and everyone in the team will hate you.</p>
+            <a href="index.html" id="back-button">Back</a>
+        </article>
     </main>
     <footer>
     </footer>
