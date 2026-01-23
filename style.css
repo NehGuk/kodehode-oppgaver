@@ -40,6 +40,31 @@ header {
 main article {
     max-width: 65ch;
 }
+
+h2 {
+    margin: 3em 0 1em 0;;
+}
+
+ul {
+   margin: 0 0 2em 2em;
+}
+
+ol {
+    margin-left: 30px;
+}
+
+.list-of-days {
+    list-style: none;
+}
+
+.day-list {
+    list-style-type: square;
+}
+
+.sublist {
+    list-style-type: disc;
+}
+
 #orange-cat {
     height: 300px;
 }
@@ -60,13 +85,6 @@ main article {
     margin-top: 20px;
 }
 
-ul {
-    margin: 20px;
-}
-
-ol {
-    margin-left: 30px;
-}
 
 /* NAVIGATION TEST */
 nav {
