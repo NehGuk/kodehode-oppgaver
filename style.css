@@ -10,6 +10,16 @@ header {
     width: 100%;
 }
 
+.main-header {
+    height: 100vh;
+    width: 100%;
+    background-image: url("assets/velkommen.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%) contrast(100%) brightness(80%);
+    
+}
+
 img {
     border-radius: 20px 20px 20px 20px;
 }
