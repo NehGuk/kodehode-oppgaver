@@ -1,3 +1,3 @@
-# Kodehode
+# Kodehode oppgaver
 
-My first project as a student at the Kodehode project.
+Hello there! Let's give it a try...
