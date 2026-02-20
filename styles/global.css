@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: floralwhite;
+  color: #333;
+}
+
+header {
+  background-color: gray;
+  height: 30vh;
+  width: 100%;
+}
+
+h1 a {
+  text-decoration: none;
+  color: rgba(20, 40, 10, 0.9);
+}
+
+.main-header {
+  margin-top: -10px;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../assets/velkommen.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%) contrast(100%) brightness(80%);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+main article {
+  max-width: 65ch;
+}
+
+article h1 {
+  margin: 1em 0 1em 0;
+}
+h2 {
+  margin: 3em 0 1em 0;
+}
+
+ul {
+  margin: 0 0 2em 1em;
+}
+
+ol {
+  margin-left: 30px;
+}
+
+.day-list {
+  list-style-type: square;
+}
+
+.sublist {
+  list-style-type: disc;
+}
+
+#orange-cat {
+  height: 300px;
+}
+
+#grey-cat {
+  height: 300px;
+}
+
+#back-button {
+  display: block;
+  margin-top: 20px;
+}
+
+pre code {
+  font-size: 0.9em;
+  margin: 3em 0 2em 0;
+}
