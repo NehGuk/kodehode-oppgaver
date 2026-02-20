@@ -1,3 +1,3 @@
 # Kodehode oppgaver
 
-Hello there! Let's give it a try...
+This is a hub repository for the Kodehode assignments. Each task will be delivered as a separate branch.
