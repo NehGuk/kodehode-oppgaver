@@ -1,3 +1,0 @@
-# Kodehode oppgaver
-
-Hello there! Let's give it a try...
